@@ -1,3 +1,7 @@
+ion-slide {
+    width: 40%!important;
+    
+}
 
 ion-content{
     --background: #4f47af;
@@ -8,4 +12,34 @@ iframe{
     text-align: center;
     align-items: center;
     display: inline-table;
+}
+h3{
+    color: white;
+  }
+  ion-card{
+    color: white;
+    background-color: white;
+  }
+
+  .avatarr{
+    position: absolute;
+    width: 93.33px;
+    height: 63.33px;
+    left: calc(50% - 93.33px/2 + 166.33px);
+    top: 34.67px;
+    margin-bottom: -10%;
+  }
+
+.participantes{
+    width: 144px;
+    height: 120px;
+}
+
+ion-card-content{
+    color: black;
+}
+
+.pontos{
+    position: absolute;
+    margin-bottom: -15%;
 }
